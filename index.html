@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Bookmarker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/inline-style.css">
+</head>
+<body>
+    
+    <div class="container pt-5">
+        <div class="header pb-2">
+            <h3 class="text-muted">Bookmarker</h3>
+        </div>
+        <div class="bookmark-info text-center">
+            <h2 class="pt-4">Bookmark Your Favorite Sites</h2>
+            <div class="form-group pt-3">
+                <label>Site Name</label>
+                <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+            </div>
+            <div class="form-group">
+                <label>Site URL</label>
+                <input type="email" class="form-control" id="siteUrl" placeholder="Website URL">
+            </div>
+            <button id="addBtn" type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12">
+              <div id="bookmarksResults"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container pt-4">
+        <div class="line-height"></div>
+        <footer>
+            <p>&copy; 2019 Bookmarker Inc.</p>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
